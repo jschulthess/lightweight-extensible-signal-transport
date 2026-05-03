@@ -203,3 +203,10 @@ Network packets are msgpack maps with two optional fields:
 | `0x01` | `bytes` | Audio frame — codec header byte followed by encoded payload |
 
 The codec header byte identifies the codec: `0x00` = Raw, `0x01` = Opus, `0x02` = Codec2. This matches the Python reference implementation, enabling interoperability between Java and Python LXST nodes on the same Reticulum network.
+
+## Related projects
+
+- [Reticulum](https://reticulum.network) — the underlying network stack, [Reticulum Manual](https://reticulum.network/manual/index.html)
+- [reticulum-network-stack](https://github.com/jschulthess/reticulum-network-stack) — native Java Reticulum implementation
+- [LXST (Python reference)](https://github.com/markqvist/LXST) — the reference implementation this library is translated from
+- [LXST Phone](https://github.com/kc1awv/lxst_phone) — Python LXST client application, [Reticulum Manual Reference](https://reticulum.network/manual/software.html#lxst-phone)
