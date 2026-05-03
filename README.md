@@ -204,6 +204,10 @@ Network packets are msgpack maps with two optional fields:
 
 The codec header byte identifies the codec: `0x00` = Raw, `0x01` = Opus, `0x02` = Codec2. This matches the Python reference implementation, enabling interoperability between Java and Python LXST nodes on the same Reticulum network.
 
+## Example Application
+
+This project comes with a sample cli *rnsphone* application. For details see the [documentation](./docs/rnphone.md).
+
 ## Related projects
 
 - [Reticulum](https://reticulum.network) — the underlying network stack, [Reticulum Manual](https://reticulum.network/manual/index.html)
